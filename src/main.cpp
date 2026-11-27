@@ -88,7 +88,3 @@ $on_mod(Loaded) {
 	listenForSettingChanges<double>("resolution", [](double) { apply(); });
 	listenForSettingChanges<bool>("ignore-throttling", [](bool) { apply(); });
 }
-
-$on_mod(Unloaded) {
-	release();
-}
