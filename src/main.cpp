@@ -1,5 +1,4 @@
 #include <Geode/Geode.hpp>
-#include <Geode/loader/SettingEvent.hpp>
 #include <Windows.h>
 #include <algorithm>
 #include <cmath>
